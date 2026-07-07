@@ -1,0 +1,13 @@
+/* SVG color inheritance */
+svg [fill]:not([fill='none']) {
+  fill: currentColor;
+}
+
+svg [stroke]:not([stroke='none']) {
+  stroke: currentColor;
+}
+
+/* SVG transitions */
+svg * {
+  transition-property: fill, stroke;
+}
